@@ -1,0 +1,275 @@
+{
+  "hotels": [
+ {
+    "id": "161c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "FabHotel Aries",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.consetetur sadipscing elitrconsetetur sadipscing elitr", 
+    "distance_to_venue": 800,
+    "rating": 4,
+    "price_category": "medium",
+    "amenities": ["Free Parking", "Free Wifi"],
+    "images": [
+        "./../assets/hotels/h1.jpeg",
+        "./../assets/hotels/h2.jpeg",
+        "./../assets/hotels/h3.jpeg"
+    ]
+},
+ {
+    "id": "261c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "The Royal Plaza",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.um dolor sit amet, consetetur sadipscing elitrum dolor sit amet, consetetur sadipscing elitr", 
+    "distance_to_venue": 2500,
+    "rating": 5,
+    "price_category": "high",
+    "amenities": ["Free Parking", "Free Wifi","Pets","Restaurant","Gym","Pool","Spa"],
+    "images": [
+        "./../assets/hotels/h4.jpeg",
+        "./../assets/hotels/h5.jpeg",
+        "./../assets/hotels/h6.jpeg"
+    ]
+},
+ {
+    "id": "361c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Karat 87",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.um dolor sit amet, consetetur sadipscing elitrum dolor sit amet, consetetur sadipscing elitr", 
+    "distance_to_venue": 1500,
+    "rating": 3,
+    "price_category": "small",
+    "amenities": ["Free Parking", "Free Wifi"],
+    "images": [
+        "./../assets/hotels/h7.jpeg",
+        "./../assets/hotels/h8.jpeg",
+        "./../assets/hotels/h9.jpeg"
+    ]
+},
+ {
+    "id": "461c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "WelcomHotel Dwarka",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.um dlitr", 
+    "distance_to_venue": 4200,
+    "rating": 1,
+    "price_category": "small",
+    "amenities": ["Free Parking"],
+    "images": [
+        "./../assets/hotels/h10.jpeg",
+        "./../assets/hotels/h11.jpeg",
+        "./../assets/hotels/h12.jpeg"
+    ]
+},
+ {
+    "id": "561c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "The Leela Palace",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.um dolor sit amet, consetetur sadipscing elitrum dolor sit amet, consetetur sadipscing elitr", 
+    "distance_to_venue": 5000,
+    "rating": 2,
+    "price_category": "medium",
+    "amenities": ["Free Parking", "Free Wifi","Restaurant","Gym","Pool"],
+    "images": [
+        "./../assets/hotels/h2.jpeg",
+        "./../assets/hotels/h7.jpeg",
+        "./../assets/hotels/h9.jpeg"
+    ]
+},
+ {
+    "id": "861c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Star Paradise",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.um doloetetur sadipscing elitrum dolor sit amet, consetetur sadipscing elitr", 
+    "distance_to_venue": 2900,
+    "rating": 4,
+    "price_category": "small",
+    "amenities": ["Free Parking", "Free Wifi"],
+    "images": [
+        "./../assets/hotels/h3.jpeg",
+        "./../assets/hotels/h2.jpeg",
+        "./../assets/hotels/h6.jpeg"
+    ]
+}
+
+  ],
+  "rooms": [
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af3269c84",
+    "hotel_id":"161c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 78.90 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af3269c85",
+    "hotel_id":"161c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Luxury Room",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 58.90 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af3269c86",
+    "hotel_id":"161c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Executive",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 60 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af3269c87",
+    "hotel_id":"261c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 80 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af3269c88",
+    "hotel_id":"261c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 45.50 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af3269c89",
+    "hotel_id":"361c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 92.60 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af32669c8",
+    "hotel_id":"361c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Executive",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 115 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-75029af3269c8",
+    "hotel_id":"361c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 62
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af3269c08",
+    "hotel_id":"361c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 75
+},
+{
+    "id": "161c942665f-3c08-45e4c-88d3-5029af3269c8",
+    "hotel_id":"461c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Executive",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 80 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-50259af3269c8",
+    "hotel_id":"461c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 40
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-50209af3269c8",
+    "hotel_id":"461c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Executive",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 55
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af33269c8",
+    "hotel_id":"561c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 59.50 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029af31269c8",
+    "hotel_id":"561c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Executive",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 78.90 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-50229af3269c8",
+    "hotel_id":"561c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 82.60 
+},
+{
+    "id": "161c942665f-3c08-45ec-88d3-5029a5f3269c8",
+    "hotel_id":"561c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 49.50 
+},
+{
+    "id": "161c9462665f-3c08-45ec-88d3-5029af32069c8",
+    "hotel_id":"861c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Executive",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 60 
+},
+{
+    "id": "161c9462665f-3c08-45ec-88d3-5029af32069c8",
+    "hotel_id":"861c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Premier",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 55 
+},
+{
+    "id": "161c9462665f-3c08-45ec-88d3-5029af32069c8",
+    "hotel_id":"861c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 47 
+},
+{
+    "id": "161c9462665f-3c08-45ec-88d3-5029af32069c8",
+    "hotel_id":"861c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Premier",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 78.90 
+},
+{
+    "id": "161c9462665f-3c08-45ec-88d3-5029af32069c8",
+    "hotel_id":"861c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 63 
+},
+{
+    "id": "161c9462665f-3c08-45ec-88d3-5029af32069c8",
+    "hotel_id":"861c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Premier",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 4,
+    "price_in_usd": 51.50 
+},
+{
+    "id": "161c9462665f-3c08-45ec-88d3-5029af32069c8",
+    "hotel_id":"861c9665f-3c08-45ec-88d3-5029af3269c8",
+    "name": "Deluxe suite",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
+    "max_occupancy": 2,
+    "price_in_usd": 45 
+}
+  ]
+}
